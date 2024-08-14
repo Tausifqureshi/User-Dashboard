@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="stylesheet" href="/CSS/signup.css">
+ 
+</head>
+<body>
+    <section>
+        <h1>SIGN UP</h1>
+        <form onsubmit="signUp(event); return false">
+            <input type="text" id="s-name" placeholder="Enter your Full Name"><span id="u-name"></span>
+            <input type="text" id="phone" placeholder="Enter Your Phone Number"><span id="pho-name"></span>
+            <input type="text" id="email" placeholder="Enter your Email"><span id="e-name"></span>
+            <input type="password" id="pass" placeholder="Enter Your Password"><span id="p-name"></span>
+
+            <button type="submit">SIGN UP</button>
+            <p>Have An Account? <a href="./login.html">LOGIN</a></p>
+        </form>
+    </section>
+
+    <script src="/Script/signup.js"></script>
+</body>
+</html>
