@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
   if (userLogin) {
     window.location.replace("./dashboard.html");
   }
-});
+});       
 
 function login(event) {
   event.preventDefault();
