@@ -72,7 +72,7 @@ function signUp(event) {
   let getUser = JSON.parse(localStorage.getItem("user")) || [];
 
   const findUser = getUser.find((value) => value.email === email);
-
+               
   if (!findUser) {
     getUser.push(userObj);
     localStorage.setItem("user", JSON.stringify(getUser));
